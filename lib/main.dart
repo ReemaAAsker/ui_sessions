@@ -61,7 +61,7 @@ class RowExample extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Sami Abudallah',
+                  'Sama Abdallah Shurrab',
                   style: TextStyle(
                     fontSize: 20,
                     shadows: [Shadow(color: Colors.grey, blurRadius: 6)],
@@ -76,9 +76,29 @@ class RowExample extends StatelessWidget {
                 spacing: 10,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('images/fac.png', width: 30, height: 30),
+                  Icon(Icons.phone, color: const Color.fromRGBO(28, 58, 83, 1)),
                   Text(
-                    'www.Facebok.com/samiAbdallah',
+                    '0567778285',
+                    style: TextStyle(
+                      color: const Color.fromRGBO(28, 58, 83, 1),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 10),
+              color: const Color(0xD4F1D571),
+              child: Row(
+                spacing: 10,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.location_on,
+                    color: const Color.fromRGBO(28, 58, 83, 1),
+                  ),
+                  Text(
+                    'Palestine-Gaza-Khanyounis',
                     style: TextStyle(
                       color: const Color.fromRGBO(28, 58, 83, 1),
                     ),
@@ -95,7 +115,7 @@ class RowExample extends StatelessWidget {
                 children: [
                   Image.asset('images/fac.png', width: 30, height: 30),
                   Text(
-                    'www.Facebok.com/samiAbdallah',
+                    'www.Facebook.com/samashurrab',
                     style: TextStyle(
                       color: const Color.fromRGBO(28, 58, 83, 1),
                     ),
@@ -103,6 +123,41 @@ class RowExample extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 10),
+              color: const Color(0xD4F1D571),
+              child: Row(
+                spacing: 10,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset('images/instagram.png', width: 30, height: 30),
+                  Text(
+                    'www.instagram.com/samashurrab',
+                    style: TextStyle(
+                      color: const Color.fromRGBO(28, 58, 83, 1),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 10),
+              color: const Color(0xD4F1D571),
+              child: Row(
+                spacing: 10,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset('images/linkedin.png', width: 30, height: 30),
+                  Text(
+                    'www.linkedin.com/samashurrab',
+                    style: TextStyle(
+                      color: const Color.fromRGBO(28, 58, 83, 1),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+
             //in , instagram , call , location
             //contact with me  >> button
             // Row(
@@ -137,10 +192,6 @@ class RowExample extends StatelessWidget {
             // ),
             TextButton(
               onPressed: () {},
-              child: Text(
-                'Contact Me',
-                style: TextStyle(color: const Color.fromRGBO(2, 48, 85, 1)),
-              ),
 
               style: TextButton.styleFrom(
                 padding: EdgeInsets.all(20),
@@ -148,6 +199,10 @@ class RowExample extends StatelessWidget {
                   borderRadius: const BorderRadius.all(Radius.circular(8)),
                   side: BorderSide(color: Colors.amber),
                 ),
+              ),
+              child: Text(
+                'Contact Me',
+                style: TextStyle(color: const Color.fromRGBO(2, 48, 85, 1)),
               ),
             ),
           ],
