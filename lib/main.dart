@@ -137,10 +137,6 @@ class RowExample extends StatelessWidget {
             // ),
             TextButton(
               onPressed: () {},
-              child: Text(
-                'Contact Me',
-                style: TextStyle(color: const Color.fromRGBO(2, 48, 85, 1)),
-              ),
 
               style: TextButton.styleFrom(
                 padding: EdgeInsets.all(20),
@@ -148,6 +144,10 @@ class RowExample extends StatelessWidget {
                   borderRadius: const BorderRadius.all(Radius.circular(8)),
                   side: BorderSide(color: Colors.amber),
                 ),
+              ),
+              child: Text(
+                'Contact Me',
+                style: TextStyle(color: const Color.fromRGBO(2, 48, 85, 1)),
               ),
             ),
           ],
