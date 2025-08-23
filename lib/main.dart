@@ -16,6 +16,8 @@ class RowExample extends StatelessWidget {
         appBar: AppBar(
           title: Text('Profile'),
           backgroundColor: Colors.amberAccent,
+          actionsPadding: EdgeInsets.only(right: 10),
+          actions: [Icon(Icons.menu)],
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -55,7 +57,7 @@ class RowExample extends StatelessWidget {
                     ),
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage('images/profile.jpg'),
+                      image: AssetImage('images/user.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
