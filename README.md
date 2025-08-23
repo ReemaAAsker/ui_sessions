@@ -1,17 +1,36 @@
-# session11_ui
+# flutter ui task2 📱
 
-A new Flutter project.
+## 📌 Project Description
+A simple **Flutter** training application designed to demonstrate some of the most commonly used **UI Widgets**.  
 
-## Getting Started
+The app includes practical examples of:  
+- **Row** ➝ arrange items horizontally  
+- **Column** ➝ arrange items vertically  
+- **Text** ➝ display text  
+- **Image** ➝ display images  
+- **Icon** ➝ add icons  
+- **SizedBox** ➝ create spacing or define fixed sizes
+- **ElvatedButton** ➝ add button in the screen
 
-This project is a starting point for a Flutter application.
+## 📌 Project Goal
+The purpose of this project is to practice and understand the usage of basic Flutter Widgets while building a simple UI as part of Task 1.
 
-A few resources to get you started if this is your first Flutter project:
+## 📌 Project Structure 📂
+flutter-ui-task1/
+ ├── lib/
+ │    └── main.dart        # Main application code
+ ├── images/               # Project images
+ ├── fonts/                # Project fonts
+ ├── pubspec.yaml          # Dependencies & configuration
+ └── README.md             # Project documentation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ ## 📌 App Screenshots 📷
+ Here is a preview of the app interface:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-![profile_page](images/profile_view.png)
+ 
+![App Screenshot](images/sama_profile.png)
+
+
+
+
+
